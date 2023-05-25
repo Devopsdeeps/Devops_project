@@ -6,7 +6,9 @@ services:
       ports:
         - "8000:80"
       volumes:
-        - /home/deepika/src:/var/www/html
+        - index-data:/var/opt/nginx
 volumes:
-    src:
+   index-data:
+      
+
 
